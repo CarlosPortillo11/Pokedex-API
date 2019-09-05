@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: repeat;
 }
 
 .App-logo {
@@ -31,3 +34,17 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'Pokemon GB';
+  src: url('./fonts/PokemonGB.woff2') format('woff2'),
+      url('./fonts/PokemonGB.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.poke-font{
+ font-family: Pokemon GB;
+}
+
+
